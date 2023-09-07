@@ -79,4 +79,7 @@
   .text-orange {
     @apply text-[#F75757];
   }
+  .active-header {
+    min-height: calc(80px - 100vh);
+  }
 }
