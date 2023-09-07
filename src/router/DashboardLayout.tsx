@@ -5,9 +5,9 @@ import DashboardHeader from "../components/Header";
 const DashboardLayout = () => {
   return (
     <>
-      <div className="grid h-screen md:grid-cols-[320px_1fr]">
+      <div className="grid min-h-screen md:grid-cols-[320px_1fr]">
         <AdminSidebar />
-        <section className="h-screen">
+        <section>
           <DashboardHeader />
           <main>
             <Outlet />

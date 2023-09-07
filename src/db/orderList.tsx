@@ -1,0 +1,42 @@
+export const orderList = [
+  {
+    customerName: "John",
+    orderId: 7586,
+    product_name: "Plain Pizza",
+    qty: 16,
+    price: 44.75,
+    status: "Paid",
+  },
+  {
+    customerName: "Alice",
+    orderId: 7587,
+    product_name: "Pepperoni Pizza",
+    qty: 14,
+    price: 55.25,
+    status: "Pending",
+  },
+  {
+    customerName: "Bob",
+    orderId: 7588,
+    product_name: "Veggie Pizza",
+    qty: 13,
+    price: 38.5,
+    status: "Paid",
+  },
+  {
+    customerName: "Eva",
+    orderId: 7589,
+    product_name: "Margherita Pizza",
+    qty: 12,
+    price: 33.25,
+    status: "Cancel",
+  },
+  {
+    customerName: "Sarah",
+    orderId: 7590,
+    product_name: "Hawaiian Pizza",
+    qty: 15,
+    price: 49.99,
+    status: "Paid",
+  },
+];
