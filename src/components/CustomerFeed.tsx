@@ -12,7 +12,7 @@ const CustomerFeed = () => {
     <div className="mt-2 flex flex-col  gap-2">
       {customerFeeds.map((feed, i) => {
         return (
-          <div className="flex justify-between items-center bg-[#32363f] rounded ">
+          <div className="flex py-2 justify-between items-center bg-[#32363f] rounded ">
             <div key={i} className="p-4 flex items-center gap-4  flex-1">
               <Avatar>
                 <AvatarFallback>CN</AvatarFallback>
