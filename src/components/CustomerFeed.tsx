@@ -23,7 +23,7 @@ const CustomerFeed = () => {
               </div>
             </div>
             <div className="px-8 ">
-              <p className=" bg-[#2B2E36] rounded-full px-6 py-3">
+              <p className=" bg-[#2B2E36] rounded-full px-6 py-4">
                 {feed.time} min Ago
               </p>
             </div>

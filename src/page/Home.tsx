@@ -96,7 +96,7 @@ const Home = () => {
               return (
                 <div
                   key={i}
-                  className="flex px-4  bg-[#32363f] font-semibold justify-between items-center py-[18px] "
+                  className="flex px-4  bg-[#32363f] font-semibold justify-between items-center py-5 "
                 >
                   <p className="ml-8">{item.name}</p>
                   <button
