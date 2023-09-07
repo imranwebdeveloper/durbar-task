@@ -3,7 +3,7 @@ import { Bell, ChevronDown } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 const DashboardHeader = () => {
   return (
-    <header className="h-[80px] mb-4 bg-[#32363f] flex justify-between items-center px-4 ">
+    <header className="h-[80px] mb-4 bg-[#32363f] flex justify-between items-center px-6 ">
       <div className="bg-[#2B2E36] rounded-full w-[296px] flex items-center justify-between gap-2 h-[39px] px-4">
         <input
           type="text"
